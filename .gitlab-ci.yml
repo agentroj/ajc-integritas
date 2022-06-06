@@ -1,0 +1,72 @@
+#image: docker:latest
+
+#services:
+#  - docker:dind
+
+image: python:latest
+
+stages:
+  - build
+  - test
+  - deploy
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+cache:
+  paths:
+    - .cache/pip
+    - venv/
+
+before_script:
+  - python3 -V  # Print out python version for debugging
+  - pip3 install virtualenv
+  - virtualenv venv
+  - source venv/bin/activate
+  - pip3 install requests
+  - pip3 install python-dotenv
+
+
+build-job:
+  stage: build
+  script: 
+    - echo "Building...."
+    - mkdir build/
+    - echo "Binary file" > build/binfilev1
+  artifacts:
+    paths:
+      - build/binfilev1
+
+    
+unit-test:
+  stage: test
+  script: 
+    - echo "Performing Unit Test...."
+    - python -m unittest tests/test_main.py
+    - echo "Unit Tests Complete!"
+    
+mypy-test:
+  stage: test
+  image: python:3.9
+  script: 
+    - echo "Performing MyPy...."
+    - pip install mypy
+    - mypy app
+    - echo "MyPy Tests Complete!"
+  allow_failure: true
+
+lint-test:
+  stage: test
+  script: 
+    - echo "Performing Lint...."
+    - pip install flake8
+    - flake8
+    - echo "Lint Tests Complete!"
+  allow_failure: true
+    
+    
+deploy:
+  stage: deploy
+  script: 
+    - echo "Deploying...."
+    - echo "Deployed!"
