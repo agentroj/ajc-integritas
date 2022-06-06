@@ -1,0 +1,382 @@
+# Profile section
+profile:
+  first_name: Rogelio
+  last_name: Padida Jr.
+  picture: https://media-exp1.licdn.com/dms/image/C4E03AQHRKawqkEWNzQ/profile-displayphoto-shrink_800_800/0/1534966565241?e=1633564800&v=beta&t=2E3zrYJBfDLFbooJAtjE08IlQYvXHWe4SKeBQn6sft4  # Hosted picture
+  # picture: static/img/rodo_2021.png  # Local picture
+  contact:
+    address_one: 21 Atis Road, Potrero Malabon City, 1475
+    address_two:
+    phone: (+63) 923-662-901 | (+63) 926-722-2164
+  email: rojpadida@gmail.com
+  description: |
+    Experienced Software Engineer with a demonstrated history of working in the information technology and services industry. 
+    Skilled in Security Analysis, Python, Ruby, Django, Flask and Ruby on Rails Framework, Front End Development, 
+    AS400 Administration, and Windows Server. 
+    Strong engineering professional with a Bachelor's focused in Computer Engineering from Polytechnic University of the Philippines.
+
+
+# Social section
+social:
+  website: https://rojpadida.herokuapp.com
+  github: https://github.com/agentroj/
+  twitter: https://twitter.com/Rojpadida/
+  linkedin: https://www.linkedin.com/in/rojpadidajr
+  facebook: https://www.facebook.com/rojpadida
+  dev: https://dev.to/rojpadida
+  medium: https://medium.com/@RojPadida
+
+# Experience section
+experience:
+  item7:
+    position: Backend Application DeveloperS
+    company: iSupport Worldwide Inc.
+    from: January 2021
+    to: June 2021
+    description: >
+      Developed, delivered, and maintained the back end of web-based applications for our customers and for  software products. 
+      The Back-End Application Developer will provide technical collaboration in the enhancement and maintenance of new and existing products using 
+      Python, Flask, FastAPI, and other back-end web application technologies. Developed scalable back-end applications that meet complex business requirements using Python, Flask, FastAPI, and other back-end technologies
+      Developed APIs and documented codes changes. Wrote front-end unit tests and resolve issues and following the software development lifecycle.
+      Collaborated with QA testers to identify and solve issues during testing phase. Developed and documented deployment and CI/CD process and provided maintenance and support as needed.
+  item6:
+    position: Online AI Instructor
+    company: Kredo IT Abroad Inc
+    from: October 2020
+    to: July 2021
+    description: >
+      Taught AI Standard courses remotely to Japanese students which includes basic Python, OOP, Flask, MySQL, Docker and Git.
+  item5:
+    position: Senior Technical Consultant
+    company: Finastra Inc.
+    from: February 2020
+    to: January 2021
+    description: >
+      Configured existing applications in a micro-service architecture and support maintenance, technical change implementation, 
+      and improvements in existing applications for our clients.
+      Supported web service API frameworks and support ongoing Implementations.
+      Collaborated with engineering and QA teams to help drive best practices and work towards issue resolution.
+      Evaluated implemented and managed business entitlements and back-end interfaces w/ 3rd party systems.
+
+      Oversee systems analysis by providing recommendations and assessments.
+      Responsible for the troubleshooting, problem resolution and maintenance of operating systems, software application and systems security.
+      Designed and documented configurations and maintenance procedures.
+      Provided technical support for our Implementations, production support and product teams.
+      Maintained awareness of technology trends and issues and apply that knowledge to API application development.
+  item4:
+    position: Tools Provisioning Engineer
+    company: Reed Elsevier Shared Services Philippines Inc.
+    from: July 2018
+    to: February 2020
+    description: |
+      Managing a queue of requests from TIO and Development teams. Worked to SLA and OLA measures to ensure the best possible response to stakeholder requests
+      Created AWS (Cloud) accounts, in line with agreed TIO and Elsevier standards. Provisioning access to standard enterprise systems and tools (maintenance and removal of access in line with leavers requests).
+      Effective license management and reporting for all Enterprise tools in scope. Management of Cloud Health, to include standardized reporting. Worked closely with the Tools Provisioning manager and team 
+      to deploy, maintain and update Enterprise tools and access in a consistent and standard manner. Monitored the penetration of Enterprise tools in line with TIO and Elsevier policy, reporting against none compliance
+      Worked with Product aligned infrastructure teams to assist with one off and bulk deployment of the tools to their environments (including migration from previous tools)
+      Provided assistance to new stakeholders integrating the tools
+  item3:
+    position: Systems Administrator
+    company: MNL OP Inc - Rakuten
+    from: October 2017
+    to: July 2018
+    description: |
+      Maintained program which is used to manage ID data, knowledge data, Backup data of CRM tools such as Zendesk.
+      Regulated the server and network device which is implemented in the Philippine branch to provide stable and secure environment to our helpdesk.
+      Proposed some improvement points, system issue of our supported system through the help desk operations.
+      Administered the Zendesk through REST API, Curl, Ruby and Python as well as other systems such as VMWare, VDI, VPN and Active Directory for Rakuten Support.
+      Built programs in .Net, VBA Macro, Javascript, Angular.JS, Python and Ruby to optimize the reporting tasks of the Support Management Group.
+      Created Python script and scheduled task to optimize the routine tasks on handling Big data such as XP2 or Exchange Platform.
+      Administered the design of the Help Center and optimize the theming and search function.
+  item2:
+    position: Part Time IT Instructor
+    company: STI Munoz EDSA
+    from: June 2016
+    to: October 2017
+    description: >
+      Taught in discipline areas in Computer Engineering, Mathematics and Information Technology. As such, the instructor is expected to plan, organize, and teach in a manner that encourages personality development in harmony with the school’s “Angat Estudyante” values.
+      Promoted and directed successful student learning in keeping with the learning-centered values and goals of the school.
+      Prepared class sessions and assignments to help students grasp course content and how it integrates with overall student learning outcomes for the course
+      Taught courses according to the STI Coursewares and in accordance with defined course standards and outcomes.
+      Created a learning environment that encourages student involvement and participation.
+      Submitted course grades to the Registrar by the assigned date.
+      Provided ample periods of time for counseling and mentoring students in matters related to academic success, life goals, and thesis development.
+      Developed and administered pre and post tests for each class taught, submitting results to the Department Head as requested at the end of each semester
+      Provided professional development and growth according to personal needs and certification requirements.
+      Conducted student evaluations which are administered near the end of each semester.
+  item1:
+    position: L2 Software Engineer
+    company: IBM Solutions Delivery Inc
+    from: March 2016
+    to: August 2017
+    description: >
+      This role specializes in performing and enabling remote technical support of IBM software, hardware and solutions specifically the Lotus Domino and Notes Software. 
+      Provides technical support assistance to clients and/or IBM field support (SSRs) using problem determination/problem source identification skills on the following area:
+      Domino server administration/troubleshooting.
+      Adminp/Archiving/Policies/ID Vault.
+      Database/Maintenance/DBMT/DAOS/Directory Catalogs.
+      Security (Keys & Certificates).
+      Installation/Configuration/Upgrade/Migration.
+      Replication/Clusters/Monitoring/DDM.
+      Server Crash/Hang/Performance - Windows/UNIX/iSeries or AS400.
+      Platforms.
+      Transactional logging.
+      SSL/TLS.
+      SSO/SAML/Federation.
+      Directory Assistance/LDAP.
+      Uses technical and negotiation skills in collaboration with other support operations/organizations to prioritize and diagnose problems to resolution. 
+      Communicates action plans to the client or IBM representative as appropriate. 
+      Recommends and implements new or improvements to existing technical support tools, procedures, and processes. 
+      May provide training for and mentor others on the team. Contributes to department attainment of organizational objectives and high client satisfaction.
+
+
+# Education section
+education:
+  item1:
+    institution: Polytechnic University of the Philippines
+    program: Bachelor of Science in Computer Engineering
+    description: >
+      Computer Engineering is a four-year degree program that deals with the study of computer systems. 
+      The curriculum covers both software and hardware and develops the student's ability to analyze computer systems, designs, 
+      construction of electronic equipment and its peripherals. Since computer science is directed to the theory and technology of computation,
+      the curriculum does not specialize along traditional lines that divide hardware and software, systems and applications, or theory and experiment.
+      Rather, a unified approach to the design and analysis of computers and of computing structures is employed. 
+      This background prepares the student for placements as computer engineers in government industry. 
+      It also qualifies them for related job with computer manufacturers and consulting firms as systems programmers as well
+      as application programmers with scientific, research, and business organizations. 
+      The ethical considerations with respect to the profession is an important component of the program of study.
+    from: June 2006
+    to: March 2012
+    reference: https://www.pup.edu.ph/ce/BSCOE
+  item2:
+    institution: Tinajeros National High School
+    program: High School
+    from: June 2002
+    to: March 2006
+
+# Community section:
+community:
+  item0:
+    institution: PythonPH
+    program: Member
+    description: >
+      We are PythonPH, a community in the Philippines for enthusiasts and users of the Python programming language. Our aim is to show that Python has something for everyone: from hobbyists, to educators, to professionals. More info: http://python.ph/
+    from: September 2019
+    to: Present
+    link: hhttps://www.facebook.com/groups/pythonph/about
+  item1:
+    institution: Archangel's Journey Choir
+    program: Choir President and Coordinator
+    description: Responsible for group formation activities and aiding the Musical Director together with the whole committee on decision making.
+    from: September 2005
+    to: Present
+    link: https://www.facebook.com/ajcintegritas
+  item2:
+    institution: Diocese of Kalookan Grand Chorale
+    program: Member
+    from: February 2007
+    to: Present
+    link: https://www.facebook.com/pages/Roman-Catholic-Diocese-of-Kalookan/135879306443239
+  item3:
+    institution: Malabon Musicians' Alliance
+    program: Member
+    from: January 2009
+    to: Present
+  item4:
+    institution: Luminus
+    program: Vocalist and Songwriter
+    from: March 2013
+    to: Present
+    link: https://www.facebook.com/LuminusPH
+  reference: https://rojpadida.herokuapp.com/resume/
+
+
+
+# Skills section
+tools:
+  # Consider that the following are fa icons:
+  #   https://fontawesome.com/icons?d=gallery&s=brands
+  - python
+  - bitbucket
+  - gitlab
+  - github
+  - docker
+  - jira
+  - confluence
+  - aws
+  - html5
+  - css3
+  - js
+  - itunes-note
+  - PostgreSQL
+extra_skills:
+  # - Facebook Messenger, Telegram, and SMS bots
+  - Web scraping and web automation
+  - APIs and web development, MongoDB, PostgreSQL
+  - Image processing and computer vision
+  - Machine learning and deep learning
+  - Several Python packages – Flask, NumPy, Matplotlib, TensorFlow, etc.
+  - Ruby on  Rails
+  - Databases - PostgreSQL, MySQL and MongoDB
+  - Teach Voice Lessons
+  - Voice Recording
+  - Songwriting
+  - Music Arranging
+  - Choral Performances
+
+
+# Talks and workshops section
+workshops:
+  item0:
+    event: TEDxUNAMLeón
+    workshop: AI in modern times, February 2020.
+    material:
+    link: https://www.ted.com/tedx/events/35293
+  item1:
+    event: PyCon Colombia 2020
+    workshop: 'Workshop – DLaaS: Building cloud-based intelligent solutions, February 2020.'
+    material: https://github.com/RodolfoFerro/PyConCo20
+    link: https://www.pycon.co/ponentes/rodolfo-ferro/
+  item2:
+    event: International Meeting on Artificial Intelligence and its Applications (RIIAA) 2.0.
+    workshop: Workshop – Deep Learning as a Service (DLaaS), August 2019.
+    material: https://github.com/RodolfoFerro/RIIAA19-DLaaS
+    link: https://riiaa.org
+  item3:
+    event: LAB León Web Dev Crash Course 2019.
+    workshop: Crash Course – Introduction to Web Development with Python and Flask, August 2019.
+    material: https://github.com/RodolfoFerro/Flask101
+    link: https://flask101.glitch.me
+  item4:
+    event: DevDay León 2019 by Hackademy.
+    workshop: Workshop – (AI) API development with Python, August 2019.
+    material: https://github.com/RodolfoFerro/PythonBaseAPI
+    link:
+  item5:
+    event: Clubes de Ciencia México 2019.
+    workshop: Workshop – Revealing the Hidden Hyperspectrum with Artificial Neurons, July 2019.
+    material: https://rodolfoferro.xyz/hyperspectrum/
+    link:
+  item6:
+    event: DevDay Mérida 2019.
+    workshop: Workshop – Artificial Intelligence with Python, July 2019.
+    material: https://github.com/RodolfoFerro/DevDayMid2019
+    link:
+  item7:
+    event: Talent Land 2019.
+    workshop: Talk – A.I. in modern times, April 2019.
+    material:
+    link: https://jaliscotalentland2019.sched.com/event/MzAs/inteligencia-artificial-en-tiempos-modernos
+  item8:
+    event: PythonDay México 2018.
+    workshop: Talk – Data Science with Python, December 2018.
+    material: https://github.com/RodolfoFerro/DataSciPy
+    link:
+  item9:
+    event: PythonDay México 2018.
+    workshop: Workshop – Machine Learning as a Service (MLaaS), November 2018.
+    material: https://github.com/RodolfoFerro/MLaaS
+    link:
+  item10:
+    event: HERE Hackathon at Technological University of Leon.
+    workshop: Mentor on the event. Talk – Integration of Technological Solutions, November 2018.
+    material: https://github.com/RodolfoFerro/HereHackathon
+    link:
+  item11:
+    event: 6th. International Conference in Software Engineering Research and Innovation (CONISOFT).
+    workshop: Workshop – Introduction to Neural Networks with Keras, October 2018.
+    material: https://github.com/RodolfoFerro/CONISOFT2018
+    link: http://conisoft.org/2018/public/
+  reference: https://rodolfoferro.xyz/resume/
+
+
+# Projects section
+projects:
+  item1:
+    title: flask-resume-template
+    subtitle: A resume template built with Flask
+    description: An easy-to-configure simple resume template built with Flask and Bootstrap.
+    link: https://flask-resume-template.glitch.me
+    github: https://github.com/RodolfoFerro/flask-resume-template/
+    img: flask-resume-template.png
+    tags: [Flask, Python, Bootstrap]
+  item2:
+    title: DLaaS
+    subtitle: Google Colab Notebooks
+    description: A set of Google Colab notebooks and a Flask base API to learn and serve Deep Learning. Prepared for my workshop at RIIAA 2.0.
+    link: https://rodolfoferro.xyz/RIIAA19-DLaaS/
+    github: https://github.com/RodolfoFerro/RIIAA19-DLaaS
+    img: riiaa.png
+    tags: [Python, Tensorflow 2.0, Keras, Deep Learning]
+  item3:
+    title: impipes
+    subtitle: Python package
+    description: A Python package to build image pipelines in a simple way. Preprocess data to feed neural networks in an easier way.
+    link: https://impipes.readthedocs.io/en/latest/
+    github: https://github.com/RodolfoFerro/impipes
+    img: impipes.png
+    tags: [Python, PyPI, Images, Data Preprocessing, Documentation]
+  item4:
+    title: MNIST Web Classifier
+    subtitle: A CNN served as a web platform
+    description: Classify handwritten digits directly on your computer or your phone. As simple as taking a picture of a written random multi-digit number.
+    link: https://flask-micro-template.glitch.me
+    github: https://github.com/RodolfoFerro/flask-micro-template
+    img: keras-mnist.png
+    tags: [Python, Bootstrap, Web Platform, Flask, MNIST, CNN, Keras]
+  item5:
+    title: EmojiMerida
+    subtitle: Google Colab Notebook
+    description: A real-time coding session with an emotion recognizer on facial expressions for a Data Mérida meetup (01/04/2019). The Ai was developed with Python and Keras.
+    link: https://colab.research.google.com/github/RodolfoFerro/EmojiMerida/blob/master/Data_M%C3%A9rida.ipynb
+    github:
+    img: data-merida.png
+    tags: [Python, Computer Vision, Keras, Neural Networks]
+  item6:
+    title: PythonBaseAPI
+    subtitle: API template built with Flask
+    description: API template built with Python and Flask. Serve an Iris classifier as an API. Content for a workshop.
+    link: https://docs.google.com/presentation/d/e/2PACX-1vSc7Q82-lwQ8fKgR5WcT7Y0r9kotcYiNuyYjHRlF-fdhf6lkIrF9B_2akvzL-ZQ6ZAyT1lxM9f0mPdx/pub?start=false&loop=false&delayms=3000
+    github: https://github.com/RodolfoFerro/PythonBaseAPI
+    img: python-base-api.png
+    tags: [Flask, Python, API, scikit-learn]
+  item7:
+    title: flask-micro-template
+    subtitle: A micro template built with Flask
+    description: A micro template built with Flask and Bootstrap. Used for minimal testing in Glitch.
+    link: https://flask-micro-template.glitch.me
+    github: https://github.com/RodolfoFerro/flask-micro-template
+    img: flask-micro-template.png
+    tags: [Flask, Python, Bootstrap]
+  item8:
+    title: moltransform
+    subtitle: Python package
+    description: Molecular transformations for graphic displaying using Cartesian coordinates.
+    link: https://pypi.org/project/moltransform/
+    github: https://github.com/RodolfoFerro/moltransform
+    img: moltransform.png
+    tags: [Python, PyPI, Molecules, Rigid Transformations]
+  item9:
+    title: FitbitVersa-SimpleOmnitrix
+    subtitle: Fitbit Versa Clockface
+    description: My first clock face for Fitbit Versa, inspired in Ben 10's Omnitrix.
+    link: https://gallery.fitbit.com/details/6c75fa41-8de0-41db-b851-f21f7447018b
+    github: https://github.com/RodolfoFerro/FitbitVersa-SimpleOmnitrix
+    img: simple-omnitrix.png
+    tags: [TypeScript, Ben 10, Fitbit, Fitbit Versa]
+
+
+# Certifications and awards section
+awards:
+  - 'Winner – #TFWorld TF 2.0 Challenge – TensorFlow at Devpost 2020'
+  - Academy and Technology – Statal Youth Prize Guanajuato 2018
+  - Quantum Computing 101 – IBM Q Certification Badge 2018
+  - 1st. Place – HDI Challenge – Talent City Hackathon 2018
+  - 1st. Place – SWITCH Hackathon 2017
+  - 1st. Place – IBM Hackapalooza – Bluehack Hackathon 2017
+  - 1st. Place – 12th. Creativity and Innovation Contest at the University of Guanajuato 2017
+  - 1st. Place – Centro Fox National Hackathon 2017
+  - 1st. Place – 6th. Creativity and Innovation Contest, DCEA-UG 2016
+  - Silver Award – SynBio Giant Jamboree – iGEM  2016
+  - 1st. Place – 4th. Creativity and Innovation Contest, DCNE-UG 2016
+  - 1st. Place – Fintech – HackBajío Hackathon 2016
